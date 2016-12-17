@@ -1,0 +1,12 @@
+I have a pen
+I have an apple
+Oh
+Apple pen!
+I have a pen
+I have a pineapple
+Oh
+Pineapple pen!
+Apple pen
+Pineapple pen
+Oh
+PenPineappleApplePen!
