@@ -3,7 +3,7 @@
 void sort1(void);
 
 /* テスト用のデータ */
-int numbers[9] = {7,4,5,3,8,9,3,7,2};
+int numbers[9] = {1,4,5,6,8,9,3,7,2};
 
 /* テストデータ配列の長さ
  * マクロにしたほうがいいかな
@@ -13,8 +13,9 @@ int length = 9;
 int main(void) {
   sort1();
   for (size_t i = 0; i < length; i++) {
-    printf("%d\n", numbers[i]);
+    printf("%d%s", numbers[i], " ");
   }
+  printf("%s\n", "\nDone!!");
   return 0;
 }
 
